@@ -1,14 +1,14 @@
-# J&K MDSE Store (999) Point of Sale
+J&K MDSE Store (999) Point of Sale
 
-## Run it without installing anything
+ Run it without installing anything
 
 1. Open this project folder in File Explorer.
-2. Double-click **`index.html`**. It opens the POS in your default web browser.
-3. Sign in with **admin** / **Admin999!**.
+2. Double-click `index.html`. It opens the POS in your default web browser.
+3. Sign in with "admin" / "Admin999!".
 
-No Maven, Java, Node.js, server, or database install is needed for this offline version. Add products (including product pictures) in **Products**, then create cashier accounts in **Team**.
+No Maven, Java, Node.js, server, or database install is needed for this offline version. Add products (including product pictures) in "Products", then create cashier accounts in "Team".
 
-## Included features
+Included features
 
 - Admin and cashier sign-in with role-specific screens and sign out
 - Admin user creation, editing, role changes, and activation/deactivation
@@ -19,11 +19,11 @@ No Maven, Java, Node.js, server, or database install is needed for this offline 
 - Daily, weekly, monthly, and yearly sales summaries
 - Responsive layout for desktop and smaller screens
 
-## Important storage note
+ Important storage note
 
 This no-install version uses **HTML, CSS, and JavaScript** and keeps users, products, images, and sales in the browser’s local storage. Data stays in that browser profile on that computer; it is not shared with other computers or browser profiles. Avoid clearing the browser’s site data if you need to keep your records. The login and role controls are intended for a single-computer store/demo; because there is no server, they are not suitable for protecting sensitive data from someone with access to the computer.
 
-## MySQL database and Java edition
+ MySQL database and Java edition
 
 The project also retains the Java/Spring Boot source and paste-ready MySQL database schema for a server-connected edition:
 
